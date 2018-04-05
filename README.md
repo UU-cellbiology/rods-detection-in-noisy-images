@@ -1,7 +1,7 @@
 Rods detection in noisy images
 ===
 
-<img src="http://katpyxa.info/software/rods_detection_logo.png" align="right" style="padding:100px"/>Collection of [ImageJ](https://imagej.nih.gov/ij/)/[FIJI](http://fiji.sc/) macros for detection of rods (straight line segments of approximately same length) in noisy images. Developed mostly for <i>in vitro</i> microtubule [gliding assays](https://www.youtube.com/watch?v=yRjU-bgfL0I), but can be applied to anything else (rod-shaped bacteria, etc).  
+<img src="http://katpyxa.info/software/rods_detection_logo.png" align="right" style="padding:100px"/>Collection of [ImageJ](https://imagej.nih.gov/ij/)/[FIJI](http://fiji.sc/) macros for detection of rods (straight line segments of approximately same length) in noisy images. Developed mostly for <i>in vitro</i> microtubule [gliding assays](https://www.youtube.com/watch?v=yRjU-bgfL0I), but can be applied to anything else (rod-shaped bacteria, etc). Uses [Template matching plugin]( https://sites.google.com/site/qingzongtseng/template-matching-ij-plugin) by Qingzong Tseng. 
 
 In addition, contains Matlab scripts to link detections to tracks based on modified [SimpleTracker](https://nl.mathworks.com/matlabcentral/fileexchange/34040-simple-tracker) code by Jean-Yves Tinevez and tools to find tracks with directional runs (based on [this paper](https://www.nature.com/articles/ncomms14772)).
 
