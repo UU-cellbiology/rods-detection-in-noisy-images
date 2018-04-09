@@ -9,7 +9,14 @@ In addition, contains Matlab scripts to link detections to tracks based on modif
 <br />
 <br />
 
-For description and manual refer to <a href="https://github.com/ekatrukha/rods-detection-in-noisy-images/wiki"><strong>Wiki page</strong></a>.
+For description and manual refer to <a href="https://github.com/ekatrukha/rods-detection-in-noisy-images/wiki"><strong>Wiki page</strong></a>.   
+Main topics:   
+* **[How to install and run rods detection (ImageJ macro)](https://github.com/ekatrukha/rods-detection-in-noisy-images/wiki/How-to-install-and-run-rods-detection-%28ImageJ-macro%29)** 
+* **[How to compose detection to tracks (Matlab)](https://github.com/ekatrukha/rods-detection-in-noisy-images/wiki/How-to-compose-detection-to-tracks-%28Matlab%29)**
+* **[How does detection work?](https://github.com/ekatrukha/rods-detection-in-noisy-images/wiki/How-does-detection-work%3F)**
+
+Alternatively, to detect and track rods in movies with high signal-to-noise ratio, you can use [FIESTA](https://www.bcube-dresden.de/fiesta/wiki/Configuration) package from Stephan Diez lab, based on [this publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3117161/).
+
 
 <br />
 <br />
