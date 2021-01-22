@@ -159,6 +159,7 @@ for(nSl=1;nSl<=nSlicesOrig;nSl++)
 			
 		   //remove detected line from correlation plot
 		   makeLine(x1_r+x, y1_r+y, x2_r+x, y2_r+y, remove_line_width);
+		   run("Line to Area");
 		   run("Fill", "slice");
 
 		   //nStatus describes detected line
@@ -210,7 +211,8 @@ for(nSl=1;nSl<=nSlicesOrig;nSl++)
 				blue = v&0xff;
 				setForegroundColor(red, green, blue);				
 				makeLine(x1_r+x, y1_r+y, x2_r+x, y2_r+y, remove_line_width);
-		    	run("Fill", "slice");		    	
+				run("Line to Area");
+		    		run("Fill", "slice");		    	
 			}
 		   	selectImage(corrID);
 		   	
@@ -357,6 +359,7 @@ y2+=center_y;
 makeLine(round(x1), round(y1), round(x2), round(y2),1);
 setForegroundColor(255, 255, 255);
 run("Fill", "slice");
+run("Line to Area");
 setForegroundColor(0, 0, 0);
 stringact="sigma="+toString(psf_width);
 run("Gaussian Blur...", stringact);
